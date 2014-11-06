@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "author" content= "john goure, abdullah alobaidan, saud alshammari, robert meyer">
+	<meta name = "description" content = "">
+	<meta name = "keyword" content="">
+	<link type="text/css" style="stylesheet" href="css/main.css">
+	<title>Spinner Security</title>
+</head>
+<body>
+	<div id="container">
+		<nav id = "navigation">
+			<header id = "logo">
+				<img href="http://www.spinnerseecurity.com/images/spinnerlogo.png">
+				<h1>Spinner</h1>
+			</haeder>
+			<ul>
+				<li><a href="http://www.spinnersecurity.com title="Home Page">Home</a></li>
+				<li><a href="http://www.spinnersecurity.com/certification.html title="Certifications">Certifications</a></li>
+				<li><a href="http://www.spinnersecurity.com/testimonial.html title="Testimonials">Testimonial</a></li>
+				<li><a href="http://www.spinnersecurity.com/contact.html title="Contact Us">Contact</a></li>
+			<ul>
+		</nav>
+		<article>
+			<h3>Lorem ipsum dolor sit amet.</h3>
+			<p class = "blog" id="article1">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget maximus nibh. Integer suscipit velit nunc, interdum convallis neque sollicitudin eu. Morbi leo libero, euismod at nisi sit amet, feugiat vulputate risus. Sed orci diam, pharetra ultrices consequat suscipit, volutpat ac arcu. Pellentesque eget iaculis enim. Nulla dapibus bibendum tellus eu pulvinar. Aenean facilisis urna id ex efficitur sodales. Phasellus volutpat nulla eget maximus suscipit. Vivamus venenatis, turpis sit amet ultric...(line truncated)...
+			</p>
+		</article>
+		<article>
+			<h3>Lorem ipsum dolor sit amet.</h3>
+			<p class = "blog" id="article2">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget maximus nibh. Integer suscipit velit nunc, interdum convallis neque sollicitudin eu. Morbi leo libero, euismod at nisi sit amet, feugiat vulputate risus. Sed orci diam, pharetra ultrices consequat suscipit, volutpat ac arcu. Pellentesque eget iaculis enim. Nulla dapibus bibendum tellus eu pulvinar. Aenean facilisis urna id ex efficitur sodales. Phasellus volutpat nulla eget maximus suscipit. Vivamus venenatis, turpis sit amet ultric...(line truncated)...
+			</p>
+		</article>
+		<article>
+			<h3>Lorem ipsum dolor sit amet.</h3>
+			<p class = "blog" id="article 3">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget maximus nibh. Integer suscipit velit nunc, interdum convallis neque sollicitudin eu. Morbi leo libero, euismod at nisi sit amet, feugiat vulputate risus. Sed orci diam, pharetra ultrices consequat suscipit, volutpat ac arcu. Pellentesque eget iaculis enim. Nulla dapibus bibendum tellus eu pulvinar. Aenean facilisis urna id ex efficitur sodales. Phasellus volutpat nulla eget maximus suscipit. Vivamus venenatis, turpis sit amet ultric...(line truncated)...
+			</p>
+		</article>
+		<article>
+			<h3>Lorem ipsum dolor sit amet.</h3>
+			<p class = "blog" id="article 4">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget maximus nibh. Integer suscipit velit nunc, interdum convallis neque sollicitudin eu. Morbi leo libero, euismod at nisi sit amet, feugiat vulputate risus. Sed orci diam, pharetra ultrices consequat suscipit, volutpat ac arcu. Pellentesque eget iaculis enim. Nulla dapibus bibendum tellus eu pulvinar. Aenean facilisis urna id ex efficitur sodales. Phasellus volutpat nulla eget maximus suscipit. Vivamus venenatis, turpis sit amet ultric...(line truncated)...
+			</p>
+		</article>
+		<footer>
+			<p>Copyright Spinner Security LLC.
+		</footer>
+	</div>
+</body>
+</html>
+ No newline at end of file
