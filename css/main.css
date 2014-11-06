@@ -1,23 +1,39 @@
 body {
-	background-repeat: repeat-y;
-	background-image: url("../images/image.png");
 	margin:0;
 	padding:0;
 	border: solid 1px #000;
+}
+
+nav ul {
+	
+}
+
+nav a:link{
+
+}
+
+nav a:active {
+
+}
+
+nav a:hover {
+
+}
+
+nav a:visited{
+
 }
 
 #container {
 	background-color: #fff;
 	margin: 0 auto;
 	font-family: sans-serif, Verdana, "Times New Roman";
-	font-weight: bold;
-	font-style: italic;
 }
 
-#table {
-	display: table;
+#blog {
+
 }
 
-#image {
-	float:left;
-	}
+footer {
+
+}
