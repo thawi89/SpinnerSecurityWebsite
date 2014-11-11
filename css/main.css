@@ -19,6 +19,7 @@
 }
 li {
 	list-style-type:none;
+	display:inline;
 }
 
 #logo {
@@ -29,8 +30,9 @@ li {
 	box-shadow: 5px 5px 5px #888888;
 }
 
-nav  ul{
-	display: inline;
+nav ul {
+	display:inline;
+	text-align: center;
 }
 
 nav a:link{
@@ -48,13 +50,12 @@ nav a:active {
 nav a:hover {
 	text-decoration: none;
 	color:#ffffff;
-
+	font-weight:bold;
 }
 
 nav a:visited{
 	text-decoration: none;
 	color:#faf8ff;
-
 }
 
 h3 {
