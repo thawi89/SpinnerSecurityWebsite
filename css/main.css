@@ -4,28 +4,33 @@
 	padding:0;
 	margin: 0 auto;
 	border: solid 1px #000;
-	background-color: #faf8ff;
+	background-color: #e8e1eb;
 	font-family: serif, sans-serif, Verdana, "Times New Roman";
+	z-index: 0;
 }
 
-navigation  {
+#navigation  {
 	width: 100%;
-	height: 300px;
-	background-color:#C2E0FF;
-	text-align: inline;
-	box-shadow: 0px 5px 5px #888888;
+	height: 100px;
+	background-color: #5270ff;
+	margin-bottom: 10px;
+	box-shadow: 0 5px 5px #000000;
+	text-align: center;
+}
+li {
+	list-style-type:none;
 }
 
 #logo {
 	width: 60px;
 	height: 60px;
 	float: left;
-	margin-left: 15px;
+	margin: 5px 15px 10px 0px;
 	box-shadow: 5px 5px 5px #888888;
 }
 
 nav  ul{
-	float: right;
+	display: inline;
 }
 
 nav a:link{
@@ -52,37 +57,62 @@ nav a:visited{
 
 }
 
+h3 {
+	color: #0000ff;
+	font-weight: bold;
+	text-align:center;
+}
+
+#article {
+	width:1336px;
+}
+
 .blogcolumn1 {
-	width: 600px;
+	width: 40%;
 	height: 200px;
-	text-align: left;
+	text-align: center;
 	clear:both;
-	float: left;
-	background-color: #68B6fc;
+	float:left;
+	background-color: #faf8ff;
+	margin: 50px 100px 70px 30px;
 	border: solid 1px #000;
 }
 
 .blogcolumn2 {
-	width: 600px;
+	width: 40%;
 	height: 200px;
-	text-align: left;
-	float: right;
-	background-color: #68B6fc;
+	text-align: center;
+	float:right;
+	background-color: #faf8ff;
+	margin: 50px 70px 100px 10px;
 	border: solid 1px #000;
-}
-
-h3 {
-	color: #00ff00;
-	font-weight: bold;
 }
 
 footer {
 	width:100%;
-	height: 50px;
-	background-color: #C2E0FF;
-	color:#ffffff
+	height: 40px;
+	bottom:0;
+	position:absolute;
+	background-color: #5270ff;
+	color:#ffffff;
 }
 
 #sitemap {
 
+}
+
+.thumbnail {
+	padding-right: 5px;
+	margin:0;
+	float:right;
+	width: 50px;
+	height: 50px;
+}
+
+.largeimage {
+	padding-right: 5px;
+	margin: 0;
+	float: right;
+	width: 140px;
+	height: 140px;
 }
