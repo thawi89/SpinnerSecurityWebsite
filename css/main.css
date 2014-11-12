@@ -47,11 +47,20 @@ li {
 
 #logo {
 	width: 60px;
-	height: 60px;
+	height: 30px;
 	float: left;
 	margin: 5px 15px 10px 0px;
-	box-shadow: 5px 5px 5px #888888;
+	/*box-shadow: 5px 5px 5px #888888;*/
 }
+
+#logo2 {
+	width: 60px;
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+	/*box-shadow: 5px 5px 5px #888888;*/
+}
+
 
 nav ul {
 	display:inline;
@@ -59,6 +68,7 @@ nav ul {
 	float: left;
 	margin-top: 15px;
 	margin-left:110px;
+	margin-right:0px;
 	font-size: 1.5em;
 }
 
@@ -136,14 +146,13 @@ article img {
 .thumbnail {
 	padding-right: 5px;
 	margin:0;
-	width: 50px;
-	height: 50px;
+	width: 75px;
+	height: 75px;
 }
 
 .largeimage {
 	padding-right: 5px;
 	margin: 0;
-	float: right;
 	width: 140px;
 	height: 140px;
 }
