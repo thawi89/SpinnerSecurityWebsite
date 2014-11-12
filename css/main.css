@@ -9,12 +9,35 @@
 	z-index: 0;
 }
 
+#articles {
+	width: 1200;
+	height: 588px;
+	margin: 0px 20px 0px 20px;
+	padding:0px;
+	/*background-color: #000;*/
+	/*border:solid 1px #94bbe9;*/
+}
+
+footer {
+	width:1336px;
+	height: 51px;
+	clear: both;
+	padding: 0;
+	margin: 0 auto;
+	background-color: #5270ff;
+	color:#ffffff;
+}
+
+footer p {
+	text-align: center;
+}
+
 #navigation  {
 	width: 100%;
 	height: 100px;
 	background-color: #5270ff;
 	margin-bottom: 10px;
-	box-shadow: 0 5px 5px #000000;
+	box-shadow: 0px 5px 5px #000;
 	text-align: center;
 }
 li {
@@ -33,6 +56,14 @@ li {
 nav ul {
 	display:inline;
 	text-align: center;
+	float: left;
+	margin-top: 15px;
+	margin-left:110px;
+	font-size: 1.5em;
+}
+
+nav li {
+	padding: 50px;
 }
 
 nav a:link{
@@ -61,7 +92,8 @@ nav a:visited{
 h3 {
 	color: #0000ff;
 	font-weight: bold;
-	text-align:center;
+	text-align:justify;
+	margin-right: 10px;
 }
 
 #article {
@@ -69,34 +101,33 @@ h3 {
 }
 
 .blogcolumn1 {
-	width: 40%;
-	height: 200px;
+	width: 40%; 
 	text-align: center;
 	clear:both;
 	float:left;
 	background-color: #faf8ff;
-	margin: 50px 100px 70px 30px;
+	margin: 50px 50px 10px 70px;
 	border: solid 1px #000;
+	box-shadow: 5px 5px 2px #666666;
 }
 
 .blogcolumn2 {
 	width: 40%;
-	height: 200px;
 	text-align: center;
 	float:right;
 	background-color: #faf8ff;
-	margin: 50px 70px 100px 10px;
-	border: solid 1px #000;
+	margin: 50px 100px 10px 10px;
+	border: solid 1px #94bbe9;
+	box-shadow: 5px 5px 2px #666666;
 }
 
-footer {
-	width:100%;
-	height: 40px;
-	bottom:0;
-	position:absolute;
-	background-color: #5270ff;
-	color:#ffffff;
+article p{
+	padding: 10px;
 }
+
+article img {
+	float: left;
+	}
 
 #sitemap {
 
@@ -105,7 +136,6 @@ footer {
 .thumbnail {
 	padding-right: 5px;
 	margin:0;
-	float:right;
 	width: 50px;
 	height: 50px;
 }
