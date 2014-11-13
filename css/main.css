@@ -21,16 +21,30 @@
 
 footer {
 	width:1336px;
+	height: 54px;
+	clear: both;
+	padding: 0;
+	margin: 0 auto;
+	background-color: #5270ff;
+	color:#ffffff;
+	
+}
+
+#contactfooter {
+	width:1336px;
 	height: 51px;
 	clear: both;
 	padding: 0;
 	margin: 0 auto;
 	background-color: #5270ff;
 	color:#ffffff;
+	position:relative;
+	bottom: -396px;
 }
 
 footer p {
 	text-align: center;
+	padding: 15px;
 }
 /*nav unique id*/
 #navigation  {
@@ -39,6 +53,8 @@ footer p {
 	background-color: #5270ff;
 	margin-bottom: 10px;
 	box-shadow: 0px 5px 5px #000;
+	-moz-box-shadow: 0px 5px 5px #000;
+	-webkit-box-shadow: 0px 5px 5px #000;
 	text-align: center;
 }
 /*nav list display*/
@@ -60,7 +76,7 @@ li {
 	height: 30px;
 	float: right;
 	margin-right: 10px;
-	/*box-shadow: 5px 5px 5px #888888; this will be the industry certification logo*/
+	/*this will be the industry certification logo*/
 }
 /* nav list description - can this be combined with nav info above? */ 
 nav ul {
@@ -120,6 +136,8 @@ h3 {
 	margin: 50px 50px 10px 70px;
 	border: solid 1px #000;
 	box-shadow: 5px 5px 2px #666666;
+	-moz-box-shadow: 0px 5px 5px #000;
+	-webkit-box-shadow: 0px 5px 5px #000;
 }
 /*1st page template right column*/
 .blogcolumn2 {
@@ -130,8 +148,10 @@ h3 {
 	margin: 50px 100px 10px 10px;
 	border: solid 1px #94bbe9;
 	box-shadow: 5px 5px 2px #666666;
+	-moz-box-shadow: 0px 5px 5px #000;
+	-webkit-box-shadow: 0px 5px 5px #000;
 }
-/*centered content for 2nd page template - abdullah may have this completed*/
+/* center content for 2nd page template*/
 .centerbox {
 	width: 75%;
 	text-align: center;
@@ -140,7 +160,17 @@ h3 {
 	margin: 50px 100px 10px 100px;
 	border: solid 1px #94bbe9;
 	box-shadow: 5px 5px 2px #666666;
+	-moz-box-shadow: 0px 5px 5px #000;
+	-webkit-box-shadow: 0px 5px 5px #000;
 }
+.centerbox a {
+	text-decoration: none;
+}
+
+.centerbox a:hover {
+	text-decoration:underline;
+}
+
 /* space text */
 article p{
 	padding: 10px;
