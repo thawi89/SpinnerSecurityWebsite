@@ -5,7 +5,7 @@
 	padding:0;
 	margin: 0 auto;
 	border: solid 1px #000;
-	background-color: #e8e1eb;
+	background-color: #fff;
 	font-family: serif, sans-serif, Verdana, "Times New Roman";
 	z-index: 0;
 }
@@ -75,7 +75,7 @@ li {
 	width: 60px;
 	height: 30px;
 	float: right;
-	margin-right: 10px;
+	margin: 5px 120px 0px 0px;
 	/*this will be the industry certification logo*/
 }
 /* nav list description - can this be combined with nav info above? */ 
@@ -123,6 +123,22 @@ h3 {
 	margin-right: 10px;
 }
 /**/
+
+article a:link {
+	text-decoration:none;
+}
+
+article a:hover {
+	text-decoration:underline;
+}
+
+article a:visted{
+	text-decoration: none;
+}
+
+article a:active{
+	text-decoration: none;
+}
 #article {
 	width:1336px;
 }
@@ -132,9 +148,9 @@ h3 {
 	text-align: center;
 	clear:both;
 	float:left;
-	background-color: #faf8ff;
+	background-color: #e8e1eb;
 	margin: 50px 50px 10px 70px;
-	border: solid 1px #000;
+	border: solid 1px #94bbe9;
 	box-shadow: 5px 5px 2px #666666;
 	-moz-box-shadow: 0px 5px 5px #000;
 	-webkit-box-shadow: 0px 5px 5px #000;
@@ -144,7 +160,7 @@ h3 {
 	width: 40%;
 	text-align: center;
 	float:right;
-	background-color: #faf8ff;
+	background-color: #e8e1eb;
 	margin: 50px 100px 10px 10px;
 	border: solid 1px #94bbe9;
 	box-shadow: 5px 5px 2px #666666;
@@ -156,7 +172,7 @@ h3 {
 	width: 75%;
 	text-align: center;
 	clear:both;
-	background-color: #faf8ff;
+	background-color: #e8e1eb;
 	margin: 50px 100px 10px 100px;
 	border: solid 1px #94bbe9;
 	box-shadow: 5px 5px 2px #666666;
@@ -186,7 +202,7 @@ article img {
 /*class for div content topic images*/
 .thumbnail {
 	padding-right: 5px;
-	margin:0;
+	margin: 3px 0px 0px 3px;
 	width: 75px;
 	height: 75px;
 }
