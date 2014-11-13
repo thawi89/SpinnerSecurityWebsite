@@ -1,3 +1,14 @@
++/*looking at the picture John drew, I came up with the following pieces*/
++/*basic design - 4 pages, same header and footer on all, consistent background color, 
++consistent shadow and border colors, 50px 'white space' left body margin, 50px 'white space' right body margin */ 
++/* page layouts - 2 column and wide, columns 600px wide */
++/*list color pallet choices and sizes from spec sheet for all sections and components below*/
++/*page sections: header, footer, column1, column2, column small image, center large image*/
++/*section components: headings (1,2,3), 
++logo image w padding, border, margin; 
++centerpic image w padding, border, margin;
++columnpic image w padding, border, margin */
+
 #container {
 	width:1336px;
 	height:768px;
